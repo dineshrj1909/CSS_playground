@@ -1,0 +1,23 @@
+.card {
+    position: relative;
+    height: 400px;
+    width: 250px;
+    background-color: gray;
+    border-radius: 12px;
+    margin: 16px;
+    padding: 16px;
+    color: #ffffff;
+}
+
+.card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rebeccapurple;
+    height: 20px;
+}
