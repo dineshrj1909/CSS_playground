@@ -1,0 +1,19 @@
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: salmon;
+}
+.circle-text {
+    width: calc(100% - 200px);
+}
